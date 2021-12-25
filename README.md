@@ -8,18 +8,17 @@
          <td>Camera Screen</td>
          <td>Music Screen</td>
          <td>Profile Screen</td>
-
   </tr>
   <tr>
- <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw" width="200">
-   <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-48-48_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true" width="200">
-   <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-54-33_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true" width="200">
-   <img src=https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-59-60_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true" width="200">
+ <td> <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw" width="200"></td>
+<td>   <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-48-48_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true" width="200"</td>
+  <td> <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-54-33_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true" width="200"></td>
+ <td>  <img src=https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-59-60_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true" width="200"></td>
 
   </tr>
  </table>
  
-
+ 
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
 - [Hilt](https://developer.android.com/training/dependency-injection/hilt-jetpack) - Dependency injection library for Android.
