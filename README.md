@@ -3,7 +3,7 @@
 
 
 ## Home Screen 
- <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw" width="48">
+ <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw" width="100">
 
  
 ## Discover Screen
