@@ -4,8 +4,7 @@
   <tr>
     <td>Home Screen </td>
      <td>Discover Screen</td>
-     <td>Camera Screen</td>
-         <td>Camera Screen</td>
+          <td>Camera Screen</td>
          <td>Music Screen</td>
          <td>Profile Screen</td>
   </tr>
