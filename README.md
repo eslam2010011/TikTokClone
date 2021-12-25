@@ -10,7 +10,7 @@
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
   - [ViewBinding](https://developer.android.com/topic/libraries/view-binding) - Generates a binding class for each XML layout file present in that module and allows you to more easily write code that interacts with views.
 - [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2) - A library for scrolling content on screen as a Page.
-- [ExoPlayer2](https://github.com/google/ExoPlayer) - A library for playing Audio/Video in much efficient way.
+- [DKVideoPlayer]https://github.com/Doikki/DKVideoPlayer) - A library for playing Audio/Video in much efficient way.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 
 **Contributed By:** [Eslam Mostafa](https://github.com/eslam2010011)
