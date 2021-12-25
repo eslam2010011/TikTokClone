@@ -2,7 +2,7 @@
 
 ## Demo
 9
-![](https://drive.google.com/file/d/1QMKxxZMIEJEZmBrglIXK5dn6goMaOR4u/view?usp=sharing)
+![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
 
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
