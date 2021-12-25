@@ -1,0 +1,22 @@
+# TikTokClone
+
+## Demo
+9
+![](https://drive.google.com/file/d/1QMKxxZMIEJEZmBrglIXK5dn6goMaOR4u/view?usp=sharing)
+
+## Built With 🛠
+- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
+- [Hilt](https://developer.android.com/training/dependency-injection/hilt-jetpack) - Dependency injection library for Android.
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - For asynchronous and more..
+- [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
+  - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
+  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
+ - [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2) - A library for scrolling content on screen as a Page.
+- [DKVideoPlayer](https://github.com/Doikki/DKVideoPlayer) - A library for playing Audio/Video in much efficient way.
+- [AndroidCamera](https://github.com/aserbao/AndroidCamera) - Camera recorder like tiktok
+- [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
+
+**Contributed By:** [Eslam Mostafa](https://github.com/eslam2010011)
+
+## Architecture
+This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
