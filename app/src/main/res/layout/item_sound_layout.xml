@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/sound_image"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/play_btn"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:clickable="false"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dkplayer_selector_play_button"
+        app:layout_constraintBottom_toBottomOf="@+id/sound_image"
+        app:layout_constraintEnd_toEndOf="@+id/sound_image"
+        app:layout_constraintStart_toStartOf="@+id/sound_image"
+        app:layout_constraintTop_toTopOf="@+id/sound_image" />
+
+    <ImageButton
+        android:id="@+id/pause_btn"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dkplayer_ic_action_pause"
+        app:layout_constraintBottom_toBottomOf="@+id/sound_image"
+        app:layout_constraintEnd_toEndOf="@+id/sound_image"
+        app:layout_constraintStart_toStartOf="@+id/sound_image"
+        app:layout_constraintTop_toTopOf="@+id/sound_image" />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/loading_progress"
+        style="@style/SpinKitView.Large.Wave"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        app:SpinKit_Color="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/pause_btn"
+        app:layout_constraintEnd_toEndOf="@+id/sound_image"
+        app:layout_constraintStart_toStartOf="@+id/sound_image"
+        app:layout_constraintTop_toTopOf="@+id/pause_btn" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/sound_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+     >
+
+        <TextView
+            android:id="@+id/sound_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="name_of_the_sounds"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="description"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/duration_time_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1:00"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/fav_btn"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:translationX="@dimen/_50sdp"
+        android:src="@drawable/ic_hashtag_fav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/done"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <ImageButton
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:id="@+id/done"
+        android:layout_width="@dimen/_42sdp"
+        android:layout_height="@dimen/_42sdp"
+        android:translationX="@dimen/_80sdp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_select_rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

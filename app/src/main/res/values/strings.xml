@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TikTokClone</string>
+
+
+    <string name="title_home">Home</string>
+
+    <string name="title_discovery">Discover</string>
+
+    <string name="title_add">Add</string>
+
+    <string name="title_inbox">Inbox</string>
+
+    <string name="title_me">Me</string>
+    <string name="share">Share</string>
+
+
+    <string name="ForYou">For You</string>
+
+
+    <string name="Following">Following</string>
+
+    <string name="Search">Search</string>
+    <string name="add_sound">Add Sound</string>
+
+
+
+</resources>

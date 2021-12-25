@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_profile_">
+
+
+    <RelativeLayout
+        android:id="@+id/tabs_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            app:tabBackground="@color/white"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/black"
+            app:tabIndicatorHeight="@dimen/_2sdp"
+            app:tabIndicatorFullWidth="false"
+            app:tabMode="fixed"
+            app:tabPaddingEnd="@dimen/_45sdp"
+            app:tabPaddingStart="@dimen/_45sdp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/purple_700" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/tabBottomLine"
+            android:layout_below="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:alpha="0.4"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorGray" />
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabBottomLine" />
+
+    </RelativeLayout>
+
+</FrameLayout>
