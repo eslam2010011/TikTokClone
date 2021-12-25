@@ -13,7 +13,7 @@
 - [ExoPlayer2](https://github.com/google/ExoPlayer) - A library for playing Audio/Video in much efficient way.
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 
-**Contributed By:** [Baljeet Singh](https://github.com/iambaljeet/)
+**Contributed By:** [Eslam Mostafa](https://github.com/eslam2010011)
 
 ## Architecture
 This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
