@@ -1,6 +1,10 @@
 # TikTokClone
 
-
+<p float="left">
+  <img src="/img1.png" width="100" />
+  <img src="/img2.png" width="100" /> 
+  <img src="/img3.png" width="100" />
+</p>
 
 ## Home Screen 
  <img src="https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw" width="200">
