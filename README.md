@@ -9,8 +9,8 @@
   - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
  - [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2) - A library for scrolling content on screen as a Page.
-- [DKVideoPlayer]https://github.com/Doikki/DKVideoPlayer) - A library for playing Audio/Video in much efficient way.
-- [AndroidCamera]https://github.com/aserbao/AndroidCamera) - Camera recorder like tiktok
+- [DKVideoPlayer](https://github.com/Doikki/DKVideoPlayer) - A library for playing Audio/Video in much efficient way.
+- [AndroidCamera](https://github.com/aserbao/AndroidCamera) - Camera recorder like tiktok
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 
 **Contributed By:** [Eslam Mostafa](https://github.com/eslam2010011)
