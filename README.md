@@ -1,6 +1,12 @@
 # TikTokClone
 
 
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
+
  ## Home Screen
 ![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
 
