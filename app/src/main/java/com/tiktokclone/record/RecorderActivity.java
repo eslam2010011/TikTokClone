@@ -402,7 +402,7 @@ public class RecorderActivity extends BaseActivity implements View.OnTouchListen
                         }
                         break;
                     case OVER_CLICK:
-                        activity.mCustomRecordImageView.performClick(); //定时结束
+                        activity.mCustomRecordImageView.performClick();
                         break;
                 }
             }
