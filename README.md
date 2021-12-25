@@ -1,10 +1,22 @@
 # TikTokClone
 
-## Demo
- 
- ## Home Screen
 
+ ## Home Screen
 ![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-34-08_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
+
+## Discover Screen
+![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-38-52_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
+
+## Camera Screen
+![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-48-48_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
+
+
+## Music Screen
+![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-54-33_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
+
+## Profile Screen
+![](https://github.com/eslam2010011/TikTokClone/blob/master/screen/Screenshot_2021-12-25-14-40-59-60_1c3f10a4ee6c2aa8154177e4d7d49f2f.jpg?raw=true)
+
 
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
